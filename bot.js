@@ -37,7 +37,7 @@ client.on('message', message => {
 } else
 if (message.content.startsWith(adminprefix + 'sa')) {
   client.user.setAvatar(argresult);
-    message.channel.send(`جاري تغيير الأفتار... : `);
+    message.channel.send(`جاري تغيير الأفتار.... : `);
 }
 });
 
